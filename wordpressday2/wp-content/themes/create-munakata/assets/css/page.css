@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+/*===========================
+  page css
+===========================*/
+
+#container{
+  width: 800px;
+  margin: 0 auto;
+  padding: 50px 0 100px;
+}
+#container .pagettl{
+  display: table;
+  margin-bottom: 50px;
+  height: 150px;
+}
+#container .pagettl p{
+  display: table-cell;
+  vertical-align: middle;
+}
+#container .pagettl p:last-child{
+  padding-left: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 45px;
+}
+#container .pagettl p span{
+  font-weight: inherit;
+}
+
+/*==== プライバシーポリシー ====*/
+#privacypolicy p{
+  font-size: 16px;
+  line-height: 2;
+}
+
+/*==== 免責事項 ====*/
+#user_terms p{
+  font-size: 16px;
+  line-height: 1.8;
+}
+#user_terms p.tit{
+  margin-top: 20px;
+  color: #d44554;
+}
+#user_terms span.fl01{
+  float: left;
+}
+#user_terms span.fl02{
+  float: left;
+  width: 550px;
+  margin-left: 50px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/*==== アクセス ====*/
+#map_canvas2 {
+  height: 480px;
+}
+#access .matxt{
+  text-align: center;
+  line-height: 1.8;
+  margin: 50px 0;
+}
+#access .access_guide .tit{
+  font-size: 30px;
+  color: #3e3b58;
+  padding: 50px 0 10px;
+  border-bottom: 1px solid #ccc;
+}
+#access .access_guide .tit i{
+  margin-right: 20px;
+}
+#access .access_guide .inner{
+  padding: 30px 0 50px 50px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*==== 会社概要 ====*/
+.bold{
+  font-weight: bold;
+}
+.companyTbl{
+  width: 100%;
+  margin: 50px 0;
+}
+.companyTbl th,.companyTbl td{
+  border: 1px solid #352e67;
+  line-height: 1.8;
+  padding: 15px 15px;
+}
+
+/*==== 店舗一覧 ====*/
+#s_list p{
+  text-align: center;
+}
+#s_list a {
+  display: inline-block;
+  width: 350px;
+  margin: 10px;
+}
+#s_list a img{
+  width: 100%;
+  height: auto;
+}
+
+
+/*==== 出店案内 ====*/
+#open p{
+  line-height: 1.8;
+  margin: 0 0 20px;
+}
+.mb50{
+  margin-bottom: 50px;
+}
+h4 {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+  color: #494949;
+  background: #fffaf4;
+  border-left: solid 5px #ffaf58;
+}
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+#open .txt{
+  font-size: 20px;
+}
+#open .txt2{
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+#open .txt4{
+  font-size: 22px;
+  padding-bottom: 50px;
+}
+#open .txt4 span{
+  font-size: 16px;
+}
+#open table{
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+#open table td{
+  padding: 10px;
+  width: 150px;
+  border: 1px solid #ccc;
+}
+#open table td:nth-child(odd){
+  width: 120px;
+  background-color: #d9d6ce;
+}
+#open table td:nth-child(even){
+  width: 200px;
+}
+#open .appform{
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+/*==== 施設コンセプト ====*/
+#concept p{
+  font-size: 16px;
+  line-height: 1.5;
+}
+#concept p.txt{
+  font-size: 22px;
+  line-height: 1.8;
+  color: #4a4949;
+  font-weight: bold;
+}
+#concept .fl{
+  margin-right: 20px;
+}
+#concept .fr{
+  margin-left: 20px;
+}
+/*==== 採用情報 ====*/
+.recruit-list li{
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+.recruit-list li p{
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px){
+  #container{
+    width: 90%;
+  }
+  #concept p.txt {
+    font-size: 30px;
+  }
+  #concept p {
+    font-size: 24px;
+  }
+  #privacypolicy p {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+  .companyTbl th, .companyTbl td{
+    font-size: 24px;
+    max-height: 100%;
+  }
+  .companyTbl th{
+    min-width: 120px;
+  }
+  #user_terms p {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+  #user_terms span.fl02 {
+    width: 470px;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  #access .mapArea{
+    width: 100%;
+  }
+  #access .matxt {
+    font-size: 24px;
+  }
+  #access .access_guide .inner{
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  #open .txt {
+    font-size: 30px;
+  }
+  #open .txt2 {
+    font-size: 24px;
+    padding-bottom: 50px;
+  }
+  .recruit-list li{
+    font-size: 24px;
+    padding: 20px 0;
+  }
+  #open .txt4 {
+    font-size: 28px;
+  }
+
+}
+/*==== 営業時間のご案内 ====*/
+#time h4{
+  margin: 50px 0 30px;
+}
+#time table{
+  width: 100%;
+  font-size: 15px;
+  line-height: 1.5;
+}
+#time table th,#time table td{
+  border: 1px solid #000;
+  padding: 10px;
+}
+#time table td:last-child{
+  width: 100px;
+}
+#time table th:first-child{
+  width: 240px;
+}
+#time table th:nth-child(2){
+  width: 110px;
+}
+#time table th:nth-child(3){
+  width: 200px;
+}
+#time table td.sunlive{
+  position: relative;
+  padding-left: 30px;
+}
+#time table td.sunlive::after{
+  position: absolute;
+  content: "";
+  top: 11px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background: url(../img/shop/icon_sunlive.png) center / cover no-repeat;
+}

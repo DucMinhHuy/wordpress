@@ -1,0 +1,43 @@
+/*
+Theme Name: cpc
+Theme URI: https://wordpress.org/themes/notication/
+Author: MinhHuy
+Author URI: https://wordpress.org/
+Description: for test
+Tested up to: 6.4
+Requires PHP: 5.6
+Version: 1.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: MinhHuy
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, style-variations, wide-blocks, block-styles, accessibility-ready, blog, portfolio, news
+
+Notication WordPress Theme, (C) 2021 WordPress.org
+Notication is distributed under the terms of the GNU GPL.
+*/
+/*
+ * Font smoothing.
+ * This is a niche setting that will not be available via Global Styles.
+ * https://github.com/WordPress/gutenberg/issues/35934
+ */
+.wp-block-columns {
+    height: unset;
+    max-height: unset;
+    background: none;
+    margin-top: unset;
+    padding-top: 60px;
+}
+.wp-block-column {
+    width: 100%;
+}
+.wp-block-heading {
+    margin-bottom: 44px;
+    font-family: "YuMincho","Yu Mincho";
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 167%;
+    color: #192553;
+}
+p {
+    margin-bottom: 66px;
+}

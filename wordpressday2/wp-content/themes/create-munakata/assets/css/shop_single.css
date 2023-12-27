@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+/*===========================
+  shop detailpage css
+===========================*/
+.stitArea{
+  margin-bottom: 20px;
+}
+.stitArea .slogo{
+  float: left;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+.stitArea .slogo img{
+  width: 90%;
+  height: auto;
+  max-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%); /* Safari用 */
+  transform: translate(-50%, -50%);
+}
+.stitArea .stit{
+  float: left;
+  padding: 14px 0;
+  margin-left: 30px;
+}
+.stitArea .stit .scate{
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.stitArea .stit .sname{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.stitArea .stit .sfuri{
+  font-size: 14px;
+  color: #7c7d7e;
+}
+.stext{
+  padding: 30px 20px;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: bold;
+}
+.sinfoTbl{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.sinfoTbl th,
+.sinfoTbl td{
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 20px 0;
+  vertical-align: middle;
+  border: 1px solid #c9cdd0;
+}
+.sinfoTbl th{
+  text-align: center;
+  font-weight: bold;
+  width: 150px;
+  background-color: #d9d6ce;
+}
+.sinfoTbl td{
+  padding-left: 20px;
+}
+.sinfoTbl td a{
+  color: #03A9F4;
+}
+
+.shopnews{
+  margin-bottom: 50px;
+}
+
+.snews li{
+  float: left;
+  width: 240px !important;
+}
+.snews li .imgArea{
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+}
+.snews li img{
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.snews li img.emoji{
+  top: 0;
+  -webkit-transform: unset;
+  -ms-transform: unset;
+  transform: unset;
+}
+.snews li a{
+  display: block;
+}
+.snews .txtArea{
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+.snews .ttl{
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #000;
+  height: 40px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.snews .date{
+  font-size: 12px;
+  float: left;
+  color: #7c7d7e;
+}
+.snews img{
+  width: 100%;
+  height: auto;
+}
+.snews .sname{
+  font-size: 12px;
+  float: right;
+  color: #7c7d7e;
+}
+.shopnews .bx-wrapper{
+  margin: 40px 0 80px;
+}
+.shopnews .bx-wrapper .bx-pager{
+  bottom: -30px;
+}
+
+.amapArea{
+  margin-top: 40px;
+}
+.areamap .dtlbtn{
+  margin: 40px auto 0;
+}
+
+
+/*==== sunlive ====*/
+#sunlive{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0 100px;
+}
+.shoplist-sun{
+  margin-bottom: 50px;
+}
+.shoplist-sun ul li{
+  float: left;
+  width: calc(100% / 3);
+}
+.shoplist-sun ul li p{
+  font-size: 15px;
+  line-height: 30px;
+}
+.shoplist-sun ul li p.cate{
+  padding: 30px 0 10px;
+}
+.areamap-sun{
+  margin-bottom: 100px;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .stitArea .slogo {
+    width: 150px;
+    height: 150px;
+  }
+  .stitArea .stit .scate {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .stitArea .stit .sname {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .stitArea .stit .sfuri {
+    font-size: 24px;
+  }
+  .stext {
+    padding: 30px 0;
+    font-size: 24px;
+  }
+  .sinfoTbl th, .sinfoTbl td {
+    font-size: 24px;
+  }
+  .shopnews .bx-wrapper {
+    margin: 0 auto;
+  }
+  .shopnews .bx-viewport {
+    overflow: visible !important;
+  }
+  .snews li .imgArea {
+    height: 200px;
+  }
+  .snews{
+    margin: 40px 0 0;
+  }
+  .snews li{
+    width: 336px !important;
+    padding: 0 12px;
+    margin-left: 0;
+  }
+  .shopnews .bx-wrapper .bx-pager.bx-default-pager a {
+    background: #ccc;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    border-radius: 12px;
+  }
+  .snews .ttl {
+    font-size: 20px;
+  }
+  .shopnews .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #e32537;
+  }
+  .shopnews .bx-wrapper .bx-pager {
+    bottom: -50px;
+  }
+
+  #sunlive {
+    width: 90%;
+    padding: 30px 0 80px;
+  }
+}

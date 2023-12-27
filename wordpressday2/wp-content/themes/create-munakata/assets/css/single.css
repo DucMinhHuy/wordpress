@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*===========================
+  single css
+===========================*/
+
+.single_news{
+  width: 750px;
+  margin: 0 auto;
+}
+.single_news .snews_date{
+  font-size: 15px;
+  color: #999;
+
+  margin: 50px 0 10px;
+}
+.single_news .snews_title{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.single_news .snews_text{
+  font-size: 15px;
+  line-height: 1.8;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 100px;
+}
+
+
+@media screen and (max-width: 767px) {
+}
